@@ -2,7 +2,7 @@
 
 **KAIPAL Lite is good for one thing: day-to-day business and finance advice on your own machine. Pricing, cash, customers, suppliers, everyday business writing, and the sums behind them, worked out line by line, for business owners, professionals and students, offline and private.**
 
-KAI Pocket Assistant Lite, by Kohenoor Technologies: a small model, about 2 billion active parameters, for day-to-day business and finance advisories. It runs on your own machine, offline, in about 4 GB of memory. This repository holds what you need to run it and the guidelines for using and testing it. The model file itself is on Hugging Face.
+KAI Pocket Assistant Lite, by Kohenoor Technologies: a small model, about 2 billion active parameters, for day-to-day business and finance advisories. It runs on your own machine, offline, in about 4 GB of memory. This repository holds what you need to run it and the guidelines for using and testing it. The model file itself is on Hugging Face at https://huggingface.co/KOHENOOR-AI/kai-lite1, and the model is on the Ollama registry at https://ollama.com/kohenoor/kai-lite1.
 
 ## Get it running
 
@@ -15,7 +15,7 @@ ollama run kohenoor/kai-lite1 --think=false
 Or with the file from Hugging Face:
 
 1. Install Ollama from https://ollama.com, version 0.30.9 or newer. On Windows, open a new terminal after installing.
-2. Download the model file `kaipal-lite-q4_k_m.gguf` (3.3 GB) from the Hugging Face repository and put it in a folder with the `Modelfile` from here.
+2. Download the model file `kaipal-lite-q4_k_m.gguf` (3.3 GB) from https://huggingface.co/KOHENOOR-AI/kai-lite1 and put it in a folder with the `Modelfile` from here.
 3. In that folder:
 
 ```
