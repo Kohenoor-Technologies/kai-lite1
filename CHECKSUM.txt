@@ -1,0 +1,1 @@
+ac68f16bc7f4c013d269174097b6a24e881216ddcaba1936789a6d34f477521e  kaipal-lite-q4_k_m.gguf
